@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, input, Input } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-contato',
@@ -8,5 +9,6 @@ import { Component } from '@angular/core';
   styleUrl: './contato.component.css'
 })
 export class ContatoComponent {
-
+  @Input() nome: string = ''
+  @Input() telefone = ''
 }
