@@ -76,8 +76,13 @@
             formControlName="observacoes"
         ></textarea>
         <section class="botoes">
-            <button (mouseover)="cancelar()" class="botao-cancelar" type="button">Cancelar</button>
-            <button class="botao-salvar" type="submit">Salvar contato</button>
+            <button (click)="cancelar()" class="botao-cancelar" type="button">Cancelar</button>
+            <button
+                [disabled]="contatoForm.invalid"
+                [ngClass]="contatoForm.valid ? 'botao-salvar' : 'botao-desabilitado'"
+                type="submit">
+                Salvar contato
+            </button>
         </section>
     </form>
 </app-container>
