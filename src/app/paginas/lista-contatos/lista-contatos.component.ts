@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { RouterLink } from '@angular/router';
+
 import { CabecalhoComponent } from '../../componentes/cabecalho/cabecalho.component';
 import { ContainerComponent } from '../../componentes/container/container.component';
 import { ContatoComponent } from '../../componentes/contato/contato.component';
@@ -14,7 +16,6 @@ interface Contato {
 }
 
 import agenda from '../../agenda.json'
-import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-lista-contatos',
