@@ -1,27 +1,43 @@
+![Descricao da sua imagem](./thumbnail.png)
+
 # Indexa
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
+Uma aplicação para manipulação de contatos de uma agenda.
 
-## Development server
+## 🔨 Funcionalidades do projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O App lista os contatos, exibindo nome e telefone, de acordo com a letra inicial e possui um filtro interativo. 
+Neste curso, será desenvolvida a tela de formulário, para adição de novos contatos à lista.
 
-## Code scaffolding
+## ✔️ Técnicas e tecnologias utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+As técnicas e tecnologias utilizadas pra isso são:
 
-## Build
+- `Formulários Reativos`: implementação de formulários reativos usando FormGroup e FormControl
+- `Validações`: aplicação de validações dinâmicas utilizando a classe Validators para aprimorar a qualidade dos dados
+- `Manipulação de erros e mensagens`: utilização de @if para renderizar mensagens de erro de forma condicional, acessando a propriedade errors
+- `Services e injeção de dependências`: implementação e utilização de services para promover a modularidade e reusabilidade do código, além de explorar a injeção de dependências
+- `Configuração de rotas`: configuração eficiente do arquivo de rotas para navegação fluida e estratégias de roteamento
+- `RouterLink e Navigate`: exploração do routerLink para facilitar redirecionamentos no template, bem como uso do serviço router e método navigateByUrl para navegação programática.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📁 Link do Figma
 
-## Running unit tests
+Você pode [acessar o figma do projeto aqui](https://www.figma.com/file/uXjoavDEvDjyE8LsXgliGx/Indexa-%7C-Angular---Primeiros-Passos?type=design&node-id=241-4472&mode=design&t=wRERwIPB7NC0Xw7z-0).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🛠️ Abrir e rodar o projeto
 
-## Running end-to-end tests
+Você vai precisar do NodeJS, versão 18 ou maior.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Após baixar o projeto, você precisa instalar as dependências utilizando o comando:
 
-## Further help
+```bash
+npm install
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Depois, para executar o projeto em modo desenvolvimento:
+
+```bash
+ng serve
+```
+
+Depois, acesse [http://localhost:4200/](url) no seu navegador.

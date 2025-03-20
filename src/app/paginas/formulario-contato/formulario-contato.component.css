@@ -18,14 +18,21 @@ header .cabecalho-link img.seta {
   margin: 0 8px;
 }
 
+header .cabecalho-link button {
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
 header .cabecalho-link a {
   text-decoration: none;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
   letter-spacing: 0px;
-  color: #0d6efd;
+  color: #0D6EFD;
 }
 
 header .cabecalho-contato {
@@ -36,25 +43,24 @@ header .cabecalho-contato {
 }
 
 h1 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-size: 26px;
   font-weight: 700;
   line-height: 39px;
   letter-spacing: 0px;
   text-align: center;
-  color: #0d6efd;
+  color: #0D6EFD;
   margin: 12px 0;
 }
 
-input,
-textarea {
+input, textarea {
   box-sizing: border-box;
   border-radius: 4px;
-  border: 1px solid #ced4da;
+  border: 1px solid #CED4DA;
   width: 100%;
   margin: 8px 0 12px 0;
   padding: 6px 12px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -80,7 +86,7 @@ textarea {
 }
 
 label {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-size: 18px;
   font-weight: 700;
   line-height: 27px;
@@ -88,9 +94,8 @@ label {
   text-align: left;
 }
 
-input::placeholder,
-textarea::placeholder {
-  font-family: "Montserrat";
+input::placeholder, textarea::placeholder {
+  font-family: 'Montserrat';
   font-size: 15px;
   font-weight: 400;
   line-height: 23px;
@@ -106,9 +111,9 @@ input:focus {
   width: 72px;
   height: 37px;
   border-radius: 4px 0 0 4px;
-  border: 1px solid #ced4da;
-  background-color: #e9ecef;
-  font-family: "Montserrat";
+  border: 1px solid #CED4DA;
+  background-color: #E9ECEF;
+  font-family: 'Montserrat';
   font-size: 15px;
   font-weight: 400;
   line-height: 23px;
@@ -128,48 +133,40 @@ input:focus {
   justify-content: space-between;
 }
 
-.botao-cancelar,
-.botao-salvar,
-.botao-desabilitado {
+.botao-cancelar, .botao-salvar, .botao-desabilitado {
   width: 196px;
   height: 41px;
   padding: 6px, 12px;
   border-radius: 4px;
   border: 1px;
   gap: 8px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-size: 18px;
   font-weight: 700;
   text-align: center;
 }
 
 .botao-cancelar {
-  color: #0d6efd;
-  background-color: #ffffff;
-  border: 1px solid #0d6efd;
+  color:#0D6EFD;
+  background-color: #FFFFFF;
+  border: 1px solid #0D6EFD;
   cursor: pointer;
+
 }
 
 .botao-salvar {
-  color: #ffffff;
-  background-color: #0d6efd;
+  color:#FFFFFF;
+  background-color: #0D6EFD;
   cursor: pointer;
 }
 
 .botao-desabilitado {
-  background-color: #adb5bd;
-  cursor: not-allowed;
+  background-color: #ADB5BD;
+  cursor:not-allowed;
 }
 
 .mensagem-erro {
   font-size: 16px;
   color: red;
   margin-bottom: 12px;
-}
-
-header .cabecalho-link button {
-  text-decoration: none;
-  border: none;
-  cursor: pointer;
-  background: none;
 }
