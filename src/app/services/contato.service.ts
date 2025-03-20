@@ -31,7 +31,7 @@ export class ContatoService {
     localStorage.setItem('contatos', JSON.stringify(this.contatos));
   }
 
-  obterContato() {
+  obterContatos() {
     return this.contatos;
   }
 
